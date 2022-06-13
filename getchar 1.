@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int ch = 0;
+
+	char passwold[20] = { 0 };
+	printf("输入密码\n");
+
+	scanf("%s", &passwold);      //输入123456 \n       (\n为回车)
+	getchar();//把 \n 取走
+
+	printf("请确认Y/N\n");
+	ch = getchar();
+
+	if (ch == 'Y')
+	{
+		printf("确认成功\n");
+	}
+	else
+	{
+		printf("放弃确认");
+	}
+
+	return 0;
+}
