@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+	int ch = 0;
+
+	char passwold[20] = { 0 };
+	printf("输入密码\n");
+
+	scanf("%s", &passwold);                        //输入 123456 ABCD\n       (\n为回车)
+
+	while ((ch = getchar()) != '\n')              //不断读取输入缓冲区的字符
+	{
+		;
+	}
+
+	printf("请确认Y/N\n");
+	ch = getchar();
+
+	if (ch == 'Y')
+	{
+		printf("确认成功\n");
+	}
+	else
+	{
+		printf("放弃确认");
+	}
+
+	return 0;
+}
