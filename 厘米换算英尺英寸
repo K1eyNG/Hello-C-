@@ -9,4 +9,5 @@ int main()
     int inch=((cm/30.48)-foot)*12;
     
     printf("%d %d",foot,inch);
+    return 0;
 }
