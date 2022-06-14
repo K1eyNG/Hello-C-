@@ -8,4 +8,6 @@ int main()
 	double kg=(cm-100)*0.9*2;
 	printf("%.1f",kg);
 	
+	return 0;
+	
 }
