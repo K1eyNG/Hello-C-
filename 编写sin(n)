@@ -19,4 +19,6 @@ int main()
         b=1;
     }
     printf("sign(%d) = %d",a,b);
+    
+    return 0;
 }
